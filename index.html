@@ -229,6 +229,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 .packs .pk-ind{position:absolute;z-index:0;top:5px;bottom:5px;left:5px;width:calc((100% - 10px)/4);border-radius:100px;background:var(--ink);transition:transform .6s var(--ease)}
 .offer .save{display:inline-block;margin-top:16px;padding:7px 12px;border-radius:100px;background:rgba(245,244,240,.08);border:1px solid var(--line);font:600 12px var(--body);letter-spacing:.06em;align-self:flex-start;transition:transform .4s var(--ease)}
 .offer .save.pop{transform:scale(1.12)}
+.offer .dec{font-size:.4em;font-weight:800;letter-spacing:-.02em;margin-top:.08em}.offer li small.fine{display:block;font-size:12px;color:var(--mute);margin-top:2px}
 .offer .per{align-self:flex-end;font-size:.2em;font-weight:600;letter-spacing:0;color:var(--mute);margin-bottom:.12em}
 .offer li.x{color:var(--mute)}.offer li.x::before{border-color:var(--mute);transform:rotate(45deg) scale(.8);opacity:.6}
 .offer.wide{grid-column:1/-1}
@@ -368,7 +369,7 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:2
       <a href="#pricing" data-hover>Tarifs</a>
       <a href="#faq" data-hover>FAQ</a>
     </div>
-    <a href="#contact" class="btn solid nav-cta magnetic" data-hover>29 €/mois <span class="arr">→</span></a>
+    <a href="#contact" class="btn solid nav-cta magnetic" data-hover>29,90 €/mois <span class="arr">→</span></a>
     <button class="burger" id="burger" aria-label="Menu"><span></span><span></span></button>
   </div>
 </nav>
@@ -389,9 +390,9 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:2
         <span class="line"><span class="outline">au-delà</span></span>
         <span class="line"><span><em>de l'</em>ordinaire.</span></span>
       </h1>
-      <p class="hero-sub rv">Un site animé et interactif, créé et géré pour vous, <strong style="color:var(--ink);font-weight:600">dès 29 €/mois</strong>. Sans frais de création. Sans engagement. Hébergement, nom de domaine et modifications compris.</p>
+      <p class="hero-sub rv">Votre site internet animé <strong style="color:var(--ink);font-weight:600">à partir de 29,90 €/mois</strong>. On le crée, on le met en ligne et on s'occupe de l'hébergement, de la maintenance et de ses évolutions. Pas besoin d'investir plusieurs centaines d'euros au départ.</p>
       <div class="hero-cta rv">
-        <a href="#contact" class="btn solid magnetic" data-hover>Démarrer à 29 €/mois <span class="arr">→</span></a>
+        <a href="#contact" class="btn solid magnetic" data-hover>Démarrer à 29,90 €/mois <span class="arr">→</span></a>
         <a href="#work" class="btn magnetic" data-hover>Voir nos démos</a>
       </div>
     </div>
@@ -406,7 +407,7 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:2
 
 <!-- MARQUEE -->
 <div class="marquee"><div class="marquee-track" id="mq">
-  <span>Sites animés</span><b></b><span class="o">29 € / mois</span><b></b><span>Sans engagement</span><b></b><span class="o">Interactions</span><b></b><span>Vidéo motion design</span><b></b><span class="o">Scroll storytelling</span><b></b><span>100% responsive</span><b></b><span class="o">Sur-mesure</span><b></b>
+  <span>Sites animés</span><b></b><span class="o">Dès 29,90 € / mois</span><b></b><span>Sans engagement</span><b></b><span class="o">Interactions</span><b></b><span>Vidéo motion design</span><b></b><span class="o">Scroll storytelling</span><b></b><span>100% responsive</span><b></b><span class="o">Sur-mesure</span><b></b>
 </div></div>
 
 <!-- MANIFESTO -->
@@ -510,11 +511,11 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:2
       <h2 class="display" style="margin-top:20px;font-size:clamp(46px,7vw,112px)">Simple,<br>du début à la fin</h2>
     </div>
     <div class="process-track" id="ptrack">
-      <div class="step"><div class="big">01</div><div><h4>Vous souscrivez</h4><p>Vous choisissez l'abonnement à 29 €/mois et vous nous donnez les infos de votre activité. Aucun frais à l'avance.</p></div></div>
+      <div class="step"><div class="big">01</div><div><h4>Vous souscrivez</h4><p>Vous choisissez l'abonnement à partir de 29,90 €/mois et vous nous donnez les infos de votre activité. Aucun frais à l'avance.</p></div></div>
       <div class="step"><div class="big">02</div><div><h4>On crée votre site</h4><p>Une première version de votre site est prête très vite, avec votre contenu, vos couleurs et nos animations signature.</p></div></div>
       <div class="step"><div class="big">03</div><div><h4>Vous validez, on lance</h4><p>On ajuste ce que vous voulez, on vérifie tout, puis on met en ligne sur votre nom de domaine.</p></div></div>
       <div class="step"><div class="big">04</div><div><h4>On gère tout, chaque mois</h4><p>Hébergement, maintenance, sauvegardes, modifications de textes et photos, assistance : vous n'avez plus à y penser.</p></div></div>
-      <div class="step end"><h4>Votre site pour 29 €/mois ?</h4><a href="#contact" class="btn magnetic" data-hover>Démarrer <span class="arr">→</span></a></div>
+      <div class="step end"><h4>Votre site dès 29,90 €/mois ?</h4><a href="#contact" class="btn magnetic" data-hover>Démarrer <span class="arr">→</span></a></div>
     </div>
   </div>
 </section>
@@ -523,45 +524,47 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:2
 <section class="pricing" id="pricing">
   <div class="wrap">
     <div class="sec-head">
-      <div><div class="label rv">Tarifs</div><h2 class="display rv" style="margin-top:20px">29 € par mois.<br>Tout compris.</h2></div>
-      <p class="rv">Pas d'investissement de départ, pas d'engagement, pas de compteur de modifications. Un service généreux et simple, résiliable à tout moment.</p>
+      <div><div class="label rv">Tarifs</div><h2 class="display rv" style="margin-top:20px">Dès 29,90 €/mois.<br>On gère tout.</h2></div>
+      <p class="rv">L'abonnement : création incluse, sans engagement, on s'occupe de tout. Et si vous préférez acheter votre site, c'est aussi possible à 490 €, sans abonnement.</p>
     </div>
     <div class="offers">
       <div class="offer rv"><div class="offer-in">
         <div class="lines"></div>
         <div class="offer-top"><span class="tag w">Abonnement</span><span class="tag">Recommandé</span></div>
-        <h3>Site internet<br>tout compris</h3>
-        <div class="from">Sans frais de création · Sans engagement</div>
-        <div class="amount"><span class="cnt" data-to="29">29</span><sup>€</sup><span class="per">/mois</span></div>
-        <p class="note">Création, gestion et modifications : votre site vit et évolue avec vous, sans jamais avoir à sortir un gros budget.</p>
+        <h3>Site par<br>abonnement</h3>
+        <div class="from">À partir de · Création incluse · Sans engagement</div>
+        <div class="amount"><span class="cnt" data-to="29">29</span><span class="dec">,90</span><sup>€</sup><span class="per">/mois</span></div>
+        <p class="note">On s'occupe de tout. Aucun investissement de départ : vous avez votre site et un interlocuteur pour le faire évoluer.</p>
         <ul>
-          <li class="k">Création du site</li>
-          <li class="k">Design personnalisé & responsive</li>
-          <li class="k">Animations & interactions</li>
+          <li class="k">Création complète du site</li>
+          <li class="k">Design personnalisé</li>
+          <li class="k">Animations & motion design</li>
           <li class="k">Hébergement</li>
-          <li class="k">Nom de domaine</li>
-          <li class="k">Maintenance technique</li>
-          <li class="k">Sauvegardes & mises à jour</li>
-          <li class="k">Modifications de textes et photos</li>
-          <li class="k">Assistance technique</li>
-          <li class="k">Résiliable à tout moment</li>
+          <li class="k">Nom de domaine<small class="fine">selon modalités de l'offre</small></li>
+          <li class="k">Maintenance & mises à jour</li>
+          <li class="k">Modifications de contenu</li>
+          <li class="k">Assistance & suivi</li>
         </ul>
         <a href="#contact" class="btn solid magnetic" data-hover>Démarrer mon abonnement <span class="arr">→</span></a>
       </div></div>
       <div class="offer alt rv"><div class="offer-in">
         <div class="lines"></div>
-        <div class="offer-top"><span class="tag w">Paiement unique</span><span class="tag">Alternative</span></div>
-        <h3>Site livré<br>clé en main</h3>
-        <div class="from">Paiement en une fois</div>
+        <div class="offer-top"><span class="tag w">Achat du site</span><span class="tag">Sans abonnement</span></div>
+        <h3>Achat<br>du site</h3>
+        <div class="from">Paiement unique</div>
         <div class="amount"><span class="cnt" data-to="490">490</span><sup>€</sup></div>
-        <p class="note">Vous ne voulez pas d'abonnement ? On crée votre site et on vous le livre.</p>
+        <p class="note">Vous êtes autonome : on vous livre le site, et il est à vous.</p>
         <ul>
-          <li class="k">Création et livraison du site</li>
-          <li class="k">Design personnalisé & responsive</li>
-          <li class="k">Animations & interactions</li>
-          <li class="x">Hébergement, maintenance et modifications non compris</li>
+          <li class="k">Création complète du site</li>
+          <li class="k">Design personnalisé</li>
+          <li class="k">Animations & motion design web</li>
+          <li class="k">Adaptation mobile et tablette</li>
+          <li class="k">Formulaire de contact</li>
+          <li class="k">SEO de base</li>
+          <li class="k">Mise en ligne</li>
+          <li class="x">Pas de suivi inclus : modifications et évolutions ultérieures facturées à part</li>
         </ul>
-        <a href="#contact" class="btn magnetic" data-hover>Choisir le paiement unique <span class="arr">→</span></a>
+        <a href="#contact" class="btn magnetic" data-hover>Acheter mon site <span class="arr">→</span></a>
       </div></div>
       <div class="offer alt wide rv"><div class="offer-in">
         <div class="lines"></div>
@@ -589,7 +592,7 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:2
     </div>
     <div class="combo rv">
       <div class="combo-l"><span class="tag w">Combo</span><strong>Site + 4 vidéos par mois</strong><span class="combo-sub">Votre site géré et du contenu frais pour vos réseaux, chaque mois.</span></div>
-      <div class="combo-r"><span class="old">78 €</span><span class="newp">69 €<small>/mois</small></span><a href="#contact" class="btn solid magnetic" data-hover>Je prends le combo <span class="arr">→</span></a></div>
+      <div class="combo-r"><span class="old">78,90 €</span><span class="newp">69 €<small>/mois</small></span><a href="#contact" class="btn solid magnetic" data-hover>Je prends le combo <span class="arr">→</span></a></div>
     </div>
     <div class="devis rv"><span><strong>Boutique en ligne ou projet spécifique ?</strong>On vous fait un devis adapté.</span><a href="#contact" class="btn" data-hover>Demander un devis</a></div>
   </div>
@@ -601,11 +604,11 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:2
     <div><div class="label rv">FAQ</div><h2 class="display rv" style="margin-top:20px;font-size:clamp(46px,6vw,96px)">Vos<br>questions</h2></div>
     <div id="faqlist">
       <div class="qa rv"><button>Il y a un engagement ?<span class="pm"></span></button><div class="ans"><div><p>Non. L'abonnement est sans engagement de durée et résiliable à tout moment. Si vous arrêtez, le site est désactivé à la fin de votre abonnement en cours.</p></div></div></div>
-      <div class="qa rv"><button>Pourquoi aucun frais de création ?<span class="pm"></span></button><div class="ans"><div><p>Parce qu'on veut que ce soit simple. Vous payez 29 €/mois, la création est comprise. Pas d'acompte, pas de devis à rallonge.</p></div></div></div>
-      <div class="qa rv"><button>Les modifications sont-elles limitées ?<span class="pm"></span></button><div class="ans"><div><p>Pas de compteur. Vous nous envoyez vos changements de textes et de photos (horaires, menu, nouveaux produits…) et on les intègre. Pas de petite option facturée à chaque intervention.</p></div></div></div>
-      <div class="qa rv"><button>Et si je préfère payer une seule fois ?<span class="pm"></span></button><div class="ans"><div><p>C'est possible : 490 € pour la création et la livraison de votre site. L'hébergement, la maintenance et les modifications ne sont alors pas compris.</p></div></div></div>
+      <div class="qa rv"><button>Pourquoi aucun frais de création ?<span class="pm"></span></button><div class="ans"><div><p>Parce qu'on veut que ce soit simple. Avec l'abonnement, la création est incluse : pas besoin d'investir plusieurs centaines d'euros au départ.</p></div></div></div>
+      <div class="qa rv"><button>Je peux faire modifier mon site ?<span class="pm"></span></button><div class="ans"><div><p>Oui. Avec l'abonnement, les modifications de contenu (textes, photos, horaires, menu…) sont comprises : vous avez un interlocuteur pour faire évoluer votre site.</p></div></div></div>
+      <div class="qa rv"><button>Et si je préfère acheter mon site ?<span class="pm"></span></button><div class="ans"><div><p>C'est possible : 490 € en une fois, sans abonnement. On crée votre site, on le met en ligne et vous êtes autonome. Les modifications et évolutions ultérieures sont alors facturées à part.</p></div></div></div>
       <div class="qa rv"><button>Un site animé, ce n'est pas trop lent ?<span class="pm"></span></button><div class="ans"><div><p>Non. Les animations sont optimisées pour rester fluides, y compris sur mobile. Un site animé bien construit charge aussi vite qu'un site classique — il est juste beaucoup plus marquant.</p></div></div></div>
-      <div class="qa rv"><button>J'ai déjà un site, vous pouvez le refaire ?<span class="pm"></span></button><div class="ans"><div><p>Oui. On reprend votre contenu existant et on le transforme en une expérience moderne et animée, avec le même abonnement.</p></div></div></div>
+      <div class="qa rv"><button>J'ai déjà un site, vous pouvez le refaire ?<span class="pm"></span></button><div class="ans"><div><p>Oui. On reprend votre contenu existant et on le transforme en une expérience moderne et animée.</p></div></div></div>
     </div>
   </div>
 </section>
